@@ -77,7 +77,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 
 1) for some servers we have manually tested that they include a working webid-oidc identity provider, but we don't have the headless-browser tests that confirm this automatically for these servers. The [solid-oidc IDP tester page](https://solid.github.io/solid-oidc-tests/), in contrast, requires human interaction, but with that it can test any publicly hosted IDP.
 2) TrinPod [will support](https://gitter.im/solid/test-suite?at=612101ace8de9946b4324a0b) this in the future
-3) Although Inrupt ESS does have a WAC module, this feature is disabled on pod.inrupt.com for various reasons
+3) Although Inrupt ESS does have a WAC module, this feature is disabled on pod.inrupt.com and [not supported in production](https://docs.inrupt.com/ess/latest/security/authorization/#additional-information)
 4) See [#136](https://github.com/solid/test-suite/issues/136)
 5) Due to architectural trade-offs, global locks are not supported in Inrupt ESS
 6) See [#137](https://github.com/solid/test-suite/issues/137)
