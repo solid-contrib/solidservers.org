@@ -98,10 +98,8 @@ When run locally a [test-suite-report app](https://github.com/solid/test-suite/b
 See [latest test-suite-report.md](https://github.com/solid/test-suite/blob/main/test-suite-report.md). The report actually covers CRUD and WAC tests of CSS, ESS and NSS.
 
 ## Access Control Policy Tests (coming soon)
-
-If more servers offer [Access Control Policies](https://github.com/solid/authorization-panel/blob/master/proposals/acp/index.md) as an experimental alternative to Solid's existing Web Access Control
-system, the test-suite panel should find a way to create tests for that, too. But as of November 2020,
-there are no concrete plans for this.
+Version 0.9 of the Solid protocol requires support for WAC, but future versions of the spec will (probably) require servers to support "either WAC or ACP".
+We are working on adding test reports for ACP support.
 
 ## Monetization Tests (version 1.0.0, experimental, work in progress)
 
