@@ -1,7 +1,7 @@
-# Test Suite for Solid
+# Solid Test Suite
 [![Join the chat at https://gitter.im/solid/test-suite](https://badges.gitter.im/solid/test-suite.svg)](https://gitter.im/solid/test-suite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Solid's test suite is maintained by [the test suite panel](https://github.com/solid/process/blob/main/panels.md#test-suite)
+Solid's test suite is maintained by the [Solid test suite panel](https://github.com/solid/test-suite-panel)
 and sponsored through an [Open Collective](https://opencollective.com/independent-solid-test-suite). You can show your support by donating
 even just 1 USD there, and we'll add you or your logo to our list of sponsors.
 
