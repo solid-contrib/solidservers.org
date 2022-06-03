@@ -40,7 +40,7 @@ When all tests are green, it confirms what we already thought we knew, and impro
 Even better, *especially* when test results from different sources contradict each other, this information adds up to help us move forward.
 This test suite tries to cover all Solid-related protocols and to only test for behaviours that are undisputed in the spec, but it's evolving and never perfect.
 
-All tests are written from assumptions, and sometimes the same assumption that slipped into your code, also slipped into your tests. In that case, the tests will be green for the wrong reasons. This can be as simple as [a typo in a predicate](https://github.com/solid/community-server/issues/621) which was maybe copied twice from the same source. Easy to fix, but very important for interoperability!
+All tests are written from assumptions, and sometimes the same assumption that slipped into your code, also slipped into your tests. In that case, the tests will be green for the wrong reasons. This can be as simple as a typo in a predicate which was maybe copied twice from the same source. Easy to fix, but very important for interoperability!
 
 Sometimes we find a test is incorrect or too strict. Sometimes we don't know what the correct behaviour is. In this case we mark the test as 'skip' and open a spec issue for debate. So at least we can turn an "unknown unknown" into a "known unknown".
 When servers disagree, we need to document the difference. If we can describe the differences with reproducable tests, this will help us all have more detailed spec discussions! :)
