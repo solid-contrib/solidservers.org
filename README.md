@@ -73,7 +73,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 | 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |  ✓    |  ✓    |
 | 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |  ✓    |       |
 | 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  7)   |  ✓  |  ✓    |  ✓    |       |
-| 4. | Community Solid Server | [`v1.1.0`](https://github.com/solid/community-server/releases/tag/v1.1.0)                                                                                                                   | [TypeScript](https://github.com/solid/community-server)                                                   | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
+| 4. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
 | 5. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  ✓   |  ✓  |    |   2)   |       |
 | 6. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  ✓   |  3)  |   4) |  5)   |       |
 | 7. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
@@ -87,7 +87,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 3) Although Inrupt ESS does have a WAC module, this feature is disabled on pod.inrupt.com for various reasons
 4) See [#136](https://github.com/solid/test-suite/issues/136)
 5) Due to architectural trade-offs, global locks are not supported in Inrupt ESS
-6) See [#137](https://github.com/solid/test-suite/issues/137)
+6) See [WAC tests #51](https://github.com/solid-contrib/web-access-control-tests/issues/51)
 7) PSS and Solid-Nextcloud support PATCH with `application/sparql-update` but not with the newly required `text/n3`, see https://github.com/solid/solid-crud-tests/pull/53/files
 
 ## Test-suite report
