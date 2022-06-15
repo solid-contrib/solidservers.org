@@ -75,7 +75,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 | 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  7)   |  ✓  |  ✓    |  ✓    |       |
 | 4. | Community Solid Server | [`v1.1.0`](https://github.com/solid/community-server/releases/tag/v1.1.0)                                                                                                                   | [TypeScript](https://github.com/solid/community-server)                                                   | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
 | 5. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  ✓   |  ✓  |    |   2)   |       |
-| 6. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  ✓   |  3)  |   4) |  5)   |       |
+| 6. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
 | 7. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
 | 8. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
 | 9. | Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
@@ -89,6 +89,8 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 5) Due to architectural trade-offs, global locks are not supported in Inrupt ESS
 6) See [#137](https://github.com/solid/test-suite/issues/137)
 7) PSS and Solid-Nextcloud support PATCH with `application/sparql-update` but not with the newly required `text/n3`, see https://github.com/solid/solid-crud-tests/pull/53/files
+8) From our tests it looks like Inrupt Pod Spaces supports PATCH with `application/sparql-update` but not with the newly required `text/n3`, https://github.com/solid-contrib/solid-crud-tests/issues/60
+
 
 ## Test-suite report
 When run locally a [test-suite-report app](https://github.com/solid/test-suite/blob/main/test-suite-report.md.js) can be run : 
