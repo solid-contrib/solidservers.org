@@ -87,7 +87,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 3) Although Inrupt ESS does have a WAC module, this feature is disabled on pod.inrupt.com for various reasons
 4) See [#136](https://github.com/solid/test-suite/issues/136)
 5) Due to architectural trade-offs, global locks are not supported in Inrupt ESS
-6) See [WAC tests #51](https://github.com/solid-contrib/web-access-control-tests/issues/51)
+6) See [#145](https://github.com/solid-contrib/test-suite/issues/145) and [#146](https://github.com/solid-contrib/test-suite/issues/146) 
 7) PSS and Solid-Nextcloud support PATCH with `application/sparql-update` but not with the newly required `text/n3`, see https://github.com/solid/solid-crud-tests/pull/53/files
 
 ## Test-suite report
