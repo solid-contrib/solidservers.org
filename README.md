@@ -73,22 +73,30 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 | 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |  ✓    |  ✓    |
 | 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |  ✓    |       |
 | 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  7)   |  ✓  |  ✓    |  ✓    |       |
-| 4. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
-| 5. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  ✓   |  ✓  |    |   2)   |       |
-| 6. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
-| 7. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
-| 8. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
-| 9. | Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
+| 4. | pdsinterop/ community-server | [`ce74e02`](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |   ✓  |       |
+| 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
+| 6. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  ✓   |  ✓  |    |   2)   |       |
+| 7. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
+| 8. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
+| 9. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
+| 10.| Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
 
 ### Footnotes
 
 1) for some servers we have manually tested that they include a working webid-oidc identity provider, but we don't have the headless-browser tests that confirm this automatically for these servers. The [solid-oidc IDP tester page](https://solid.github.io/solid-oidc-tests/), in contrast, requires human interaction, but with that it can test any publicly hosted IDP.
+
 2) TrinPod [will support](https://gitter.im/solid/test-suite?at=612101ace8de9946b4324a0b) this in the future
+
 3) Solid 0.9 requires WAC as a "MUST", yet by default ESS uses ACP instead. ESS can be configured to be compliant with WAC (and thus with Solid 0.9), but this configuration is not enabled on pod.inrupt.com and it is also [not supported in production](https://docs.inrupt.com/ess/latest/security/authorization/#additional-information).
+
 4) See [#136](https://github.com/solid/test-suite/issues/136)
+
 5) Due to architectural trade-offs, global locks are not supported in Inrupt ESS
+
 6) See [#145](https://github.com/solid-contrib/test-suite/issues/145) and [#146](https://github.com/solid-contrib/test-suite/issues/146) 
+
 7) PSS and Solid-Nextcloud support PATCH with `application/sparql-update` but not with the newly required `text/n3`, see https://github.com/solid/solid-crud-tests/pull/53/files
+
 8) From our tests it looks like Inrupt Pod Spaces supports PATCH with `application/sparql-update` but not with the newly required `text/n3`, https://github.com/solid-contrib/solid-crud-tests/issues/60
 
 
