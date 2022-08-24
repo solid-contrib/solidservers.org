@@ -5,6 +5,8 @@ Solid's test suite is maintained by the [Solid test suite panel](https://github.
 and sponsored through an [Open Collective](https://opencollective.com/independent-solid-test-suite). You can show your support by donating
 even just 1 USD there, and we'll add you or your logo to our list of sponsors.
 
+We operate as a [Solid Panel](https://github.com/solid/process/blob/main/panels.md#test-suite), and as such we have a [charter with deliverables](https://github.com/solid/process/blob/main/test-suite-panel-charter.md#deliverables).
+
 NB: This does not in any way give you a vote in the contents or the reporting of the test suite, in the Solid spec, or in any aspect of the Solid ecosystem. For that, you should join our [W3C-CG](https://www.w3.org/community/solid/).
 
 ## Initial Sponsor
@@ -46,6 +48,8 @@ Sometimes we find a test is incorrect or too strict. Sometimes we don't know wha
 When servers disagree, we need to document the difference. If we can describe the differences with reproducable tests, this will help us all have more detailed spec discussions! :)
 
 Is this test suite a single complete and correct source of truth? The answer is no. Solid is still evolving and although there is a lot of consensus around how a Solid pod server should behave, there is no complete single truth. This test suite is an additional layer of defence that will help you compare your implementation of Solid with those of others! That way, we all collectively become more interoperable, and that will ultimately increase the value of Solid for everyone.
+
+See also our [chartered deliverables](https://github.com/solid/process/blob/main/test-suite-panel-charter.md#deliverables) within the Solid community.
 
 ## Overview
 Running parts of the test suite against servers can be fiddly, and we're here to help you. If you have any questions about how to run some tests suite against some server, (whether on your localhost, on the public internet, or in a continuous integration hook like GitHub Actions), please join [our Gitter chat](https://gitter.im/solid/test-suite) for guidance.
