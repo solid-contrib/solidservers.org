@@ -48,11 +48,14 @@ When servers disagree, we need to document the difference. If we can describe th
 Is this test suite a single complete and correct source of truth? The answer is no. Solid is still evolving and although there is a lot of consensus around how a Solid pod server should behave, there is no complete single truth. This test suite is an additional layer of defence that will help you compare your implementation of Solid with those of others! That way, we all collectively become more interoperable, and that will ultimately increase the value of Solid for everyone.
 
 ## Overview
-This test suite runs various testers against various servers in a
-Docker testnet. The testers can also run against live servers over
-the public internet.
+Running parts of the test suite against servers can be fiddly, and we're here to help you. If you have any questions about how to run some tests suite against some server, (whether on your localhost, on the public internet, or in a continuous integration hook like GitHub Actions), please join [our Gitter chat](https://gitter.im/solid/test-suite) for guidance.
 
-The following Solid pod server implementations have been tested against (parts of) this suite:
+The following Solid pod server implementations have been tested in one of three ways; you can tell from the 'Version' column:
+* The ones that say '(each PR)' run these tests as part of their development process, that's what we always recommend!
+* The ones that mention a code revision are run against an instance of the server that we built from source, on one of our laptops.
+* The ones that mention a URL are run against a public instance of the server.
+
+When a test that is run in one of these three ways fails, we write steps-to-reproduce with curl, and if we are confident the server is violating the spec, we mark it as a fail. If we don't find any failing tests, we mark the server as '✓'. The following table reports our conclusions from that process:
 
 ### Required parts:
 * "IDP" refers to the [webid-provider-tests](https://github.com/solid/webid-provider-tests)
