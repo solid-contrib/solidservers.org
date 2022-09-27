@@ -77,11 +77,11 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 
 | #  | name                   | version        | prog.lang                                                                                                   | IDP | CRUD | WAC | (WPS) | (CON) | (MON) |
 |----|------------------------|----------------|-------------------------------------------------------------------------------------------------------------|-----|------|-----|-------|-------|-------|
-| 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |  ✓    |  ✓    |
-| 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |  ✓    |       |
-| 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  ✓   |  ✓  |  ✓    |  ✓    |       |
-| 4. | pdsinterop/community-server | [`ce74e02`](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |   ✓  |       |
-| 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |   ✓  |       |
+| 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |       |  ✓    |
+| 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |       |       |
+| 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  ✓   |  ✓  |  ✓    |       |       |
+| 4. | pdsinterop/community-server | [`ce74e02`](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |      |       |
+| 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
 | 6. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  ✓   |  ✓  |    |   2)   |       |
 | 7. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
 | 8. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
@@ -90,7 +90,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 
 ### Footnotes
 
-1) for some servers we have manually tested that they include a working webid-oidc identity provider, but we don't have the headless-browser tests that confirm this automatically for these servers. The [solid-oidc IDP tester page](https://solid.github.io/solid-oidc-tests/), in contrast, requires human interaction, but with that it can test any publicly hosted IDP.
+1) for some servers we have manually tested that they include a working webid-oidc identity provider, but we don't have the headless-browser tests that confirm this automatically for these servers. The [solid-oidc IDP tester page](https://inrupt.github.io/solid-oidc-tests/), in contrast, requires human interaction, but with that it can test any publicly hosted IDP.
 
 2) TrinPod [will support](https://gitter.im/solid/test-suite?at=612101ace8de9946b4324a0b) this in the future
 
@@ -104,7 +104,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 
 7) PSS supports PATCH with `application/sparql-update` but not with the newly required `text/n3`, see https://github.com/solid/solid-crud-tests/pull/53/files
 
-8) From our tests it looks like Inrupt Pod Spaces supports PATCH with `application/sparql-update` but not with the newly required `text/n3`, https://github.com/solid-contrib/solid-crud-tests/issues/60
+8) From our tests it looks like Inrupt Pod Spaces supports PATCH with `application/sparql-update` but not with the newly required `text/n3`, see [#60](https://github.com/solid-contrib/solid-crud-tests/issues/60)
 
 
 ## Test-suite report
