@@ -9,6 +9,37 @@ We operate as a [Solid Panel](https://github.com/solid/process/blob/main/panels.
 
 NB: This does not in any way give you a vote in the contents or the reporting of the test suite, in the Solid spec, or in any aspect of the Solid ecosystem. For that, you should join our [W3C-CG](https://www.w3.org/community/solid/).
 
+## Three versioning tracks
+
+Many things in Solid are still subject to change, but at the same time there are three development tracks that heavily depend on each other:
+* the [Solid protocol](https://solidproject.org/TR/protocol)
+* the [Solid apps](https://solidproject.org/apps)
+* the [Solid servers](https://solidproject.org/apps)
+
+Using the test suite, we can help each other to keep the versioning of all three tracks in sync. The protocol spec takes the lead, and we currently distinguish three versions:
+* [`roughly-0.8`](https://github.com/solid/solid-spec) ("deprecated", was never really pinned unambiguously)
+* [`Dec-2019`](https://github.com/solid/specification/issues/135) ("old", pinned on 17 December 2019)
+* [`v0.9.0`](https://solidproject.org/TR/2021/protocol-20211217) ("current", pinned on 17 December 2021)
+* [`vNext`](https://github.com/solid/specification) ("latest")
+
+Apps developers should test their app against a server that follows the "current" spec.
+The following servers pass at least one of those (see the [table](#table) for a more complete overview of Solid server and their test results):
+
+CAVEAT: This does not yet take DPop `ath` claims into account, see https://github.com/solid-contrib/test-suite/issues/151
+
+| #  | name                                                                          | OLD | CURRENT | LATEST |
+|----|-------------------------------------------------------------------------------|-----|---------|--------|
+| 1. | [Node Solid Server](https://github.com/solid/node-solid-server)               |  ✓  |  ✓      |        |
+| 2. | [PHP Solid Server](https://github.com/pdsinterop/php-solid-server)            |  ✓  |         |        |
+| 3. | [Solid-Nextcloud](https://github.com/pdsinterop/solid-nextcloud)              |  ✓  |  ✓      |        |
+| 4. | [pdsinterop/community-server](https://github.com/pdsinterop/community-server) |  ✓  |  ✓      |        |
+
+In [the future](https://github.com/solid-contrib/test-suite/issues/153), server developers will hopefully be able run the test suite three times: once with `SPEC_VERSION_OLD`, once with `SPEC_VERSION_CURRENT` and once with `SPEC_VERSION_LATEST`.
+For now, we only have tests available for the current version of Solid (i.e. `v0.9.0`) and for this it suffices to run the [solid-crud-tests](https://github.com/solid-contrib/solid-crud-tests)
+and the [web-access-control-tests](https://github.com/solid-contrib/web-access-control-tests) with `SKIP_CONC=1`.
+For guidance of how to run the test suite, please refer to existing GitHub Actions like [the one for NSS](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh)
+and please do join [our Gitter channel](https://gitter.im/solid/test-suite) because we would love to help you!
+
 ## Initial Sponsor
 NLNet Foundation donated 15,000 euros in 2020 as part of the [Solid-Nextcloud integration project](https://nlnet.nl/press/20210416-Nextcloud-Solid-compatible.html).
 
@@ -79,7 +110,7 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 |----|------------------------|----------------|-------------------------------------------------------------------------------------------------------------|-----|------|-----|-------|-------|-------|
 | 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |       |  ✓    |
 | 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |       |       |
-| 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  ✓   |  ✓  |  ✓    |       |       |
+| 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/solid-nextcloud/blob/master/run-solid-test-suite.sh)                 |  ✓  |  ✓   |  ✓  |  ✓    |       |       |
 | 4. | pdsinterop/community-server | [`ce74e02`](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |      |       |
 | 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
 | 6. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  2)  |  ✓  |    |      |       |
