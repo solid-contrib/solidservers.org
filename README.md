@@ -84,9 +84,10 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 | 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
 | 6. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  2)  |  ✓  |    |      |       |
 | 7. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
-| 8. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
-| 9. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
-| 10.| Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
+| 8. | Naamio         | (coming soon!) | Rust                                          |     |      |     |       |       |       |
+| 9. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
+| 10. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
+| 11.| Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
 
 ### Footnotes
 
