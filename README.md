@@ -75,15 +75,15 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 
 ### Table
 
-| #  | name                   | version        | prog.lang                                                                                                   | IDP | CRUD | WAC | (WPS) | (CON) | (MON) |
+| #  | name                   | last tested        | prog.lang                                                                                                   | IDP | CRUD | WAC | (WPS) | (CON) | (MON) |
 |----|------------------------|----------------|-------------------------------------------------------------------------------------------------------------|-----|------|-----|-------|-------|-------|
 | 1. | Node Solid Server      | (each PR)      | [JavaScript](https://github.com/solid/node-solid-server/blob/master/test/surface/run-solid-test-suite.sh) |  ✓  |  ✓   |  ✓  |  ✓    |       |  ✓    |
 | 2. | PHP Solid Server       | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |   ✓ |  7)  |  ✓  |  ✓    |       |       |
 | 3. | Solid-Nextcloud        | (each PR)      | [PHP](https://github.com/pdsinterop/php-solid-server/blob/master/run-solid-test-suite.sh)                 |  ✓  |  ✓   |  ✓  |  ✓    |       |       |
-| 4. | pdsinterop/community-server | [`ce74e02`](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |      |       |
-| 5. | Community Solid Server | [`v4.0.1`](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
-| 6. | TrinPod                | [stage.gr...x.net](https://stage.graphmetrix.net) | Lisp    | 1) |  2)  |  ✓  |    |      |       |
-| 7. | Inrupt ESS             | [pod.inrupt.com](https://pod.inrupt.com) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
+| 4. | pdsinterop/community-server | [30 june 2022](https://github.com/pdsinterop/community-server/commit/ce74e024d455d3cc7d5ef136925caae74f686fab) | [TypeScript](https://github.com/pdsinterop/community-server) | 1) |  ✓   |  ✓   |  ✓    |      |       |
+| 5. | Community Solid Server | [10 may 2022](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
+| 6. | TrinPod                | [october 2021](https://stage.graphmetrix.net) | Lisp    | 1) |  2)  |  ✓  |    |      |       |
+| 7. | Inrupt ESS             | [26 september 2022](https://github.com/solid-contrib/solid-crud-tests/issues/60#issuecomment-1258168495) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
 | 8. | Naamio         | (coming soon!) | Rust                                          |     |      |     |       |       |       |
 | 9. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
 | 10. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
