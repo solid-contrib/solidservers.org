@@ -1,8 +1,7 @@
 # Solid Pod Hosters for Enterprise
 
 Solid can separate apps from data. So to use Solid, you need [Solid apps](https://solidproject.org/apps) and a Solid Pod Server.
-As a developer or end-user, you can [self-host an open source pod server](https://solidproject.org/self-hosting/css) or [get a pod from a (demo) pod provider](https://solidproject.org/users/get-a-pod).
-As an organisation who wants to offer data sovereignty to their users, you can of course, again, host a pod server in-house or even on-prem, but you can also contact one of the following commercial pod hosting providers
+As an organisation who wants to offer data sovereignty to their users, you can of course host a pod server in-house or even on-prem, but you can also contact one of the following commercial pod hosting providers
 to handle this for you:
 
 | Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
@@ -17,6 +16,7 @@ to handle this for you:
 | [Netways](https://netways.de)             | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
 | [Jaba Hosting](https://www.jaba.hosting/) | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
 
+As a developer or end-user, you can [self-host an open source pod server](https://solidproject.org/self-hosting/css) or [get a pod from a (demo) pod provider](https://solidproject.org/users/get-a-pod).
 
 # Solid Test Suite
 [![Join the chat at https://gitter.im/solid/test-suite](https://badges.gitter.im/solid/test-suite.svg)](https://gitter.im/solid/test-suite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
