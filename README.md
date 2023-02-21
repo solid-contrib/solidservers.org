@@ -17,15 +17,45 @@ NLNet Foundation donated 15,000 euros in 2020 as part of the [Solid-Nextcloud in
 ## Current Sponsors
 These awesome *Solid-related startups* collectively sponsor the maintenance of the Solid test suite through our [Open Collective](https://opencollective.com/independent-solid-test-suite), click on their logos to check them out!
 
-| [![Digita](https://user-images.githubusercontent.com/408412/171865811-c0056819-68ca-47ab-8624-393a5b7fc4e4.png)](https://www.digita.ai) | [![O Team](https://user-images.githubusercontent.com/408412/117268137-3df84280-ae57-11eb-9793-7bbefdbb324c.png)](https://o.team) | [![GraphMetrix](https://user-images.githubusercontent.com/408412/117344630-e0d7ad80-aea5-11eb-8b7c-dbcefff79734.png)](https://graphmetrix.com) | [![Interition](https://user-images.githubusercontent.com/408412/117268154-43ee2380-ae57-11eb-8613-c04d71f9afda.png)](https://interition.com) | [![Ontola](https://user-images.githubusercontent.com/408412/117268149-43558d00-ae57-11eb-8b69-d380b11bd86b.png)](https://ontola.io) | [![Understory](https://user-images.githubusercontent.com/408412/118088415-545a4d00-b3c7-11eb-8f60-bda451827391.png)](https://understory.coop) | [![Understory](https://media-exp1.licdn.com/dms/image/C4E0BAQHocYfOjuWmBQ/company-logo_200_200/0/1550057556294?e=2159024400&v=beta&t=9ieVgUpPJ0S_YDUZ-LRy4jCEnzwreObM86ir6wJMoeM)](https://startinblox.com) |
+| [![Digita](https://user-images.githubusercontent.com/408412/171865811-c0056819-68ca-47ab-8624-393a5b7fc4e4.png)](https://www.digita.ai) 
+| [![O Team](https://user-images.githubusercontent.com/408412/117268137-3df84280-ae57-11eb-9793-7bbefdbb324c.png)](https://o.team) 
+| [![GraphMetrix](https://user-images.githubusercontent.com/408412/117344630-e0d7ad80-aea5-11eb-8b7c-dbcefff79734.png)](https://graphmetrix.com) 
+| [![Interition](https://user-images.githubusercontent.com/408412/117268154-43ee2380-ae57-11eb-8613-c04d71f9afda.png)](https://interition.com) 
+| [![Ontola](https://user-images.githubusercontent.com/408412/117268149-43558d00-ae57-11eb-8b69-d380b11bd86b.png)](https://ontola.io) 
+|
 |---|---|---|---|---|---|---|
-| [Digita](https://www.digita.ai) | [O Team](https://o.team) | [GraphMetrix](https://graphmetrix.com) | [Interition](https://interition.com) | [Ontola](https://ontola.io) | [Understory](https://understory.coop) | [Startin'blox](https://startinblox.com) |
+| [Digita](https://www.digita.ai) 
+| [O Team](https://o.team) 
+| [GraphMetrix](https://graphmetrix.com) 
+| [Interition](https://interition.com) 
+| [Ontola](https://ontola.io) 
+|
+
+| [![Understory](https://user-images.githubusercontent.com/408412/118088415-545a4d00-b3c7-11eb-8f60-bda451827391.png)](https://understory.coop) 
+| [![Startin'blox](https://media-exp1.licdn.com/dms/image/C4E0BAQHocYfOjuWmBQ/company-logo_200_200/0/1550057556294?e=2159024400&v=beta&t=9ieVgUpPJ0S_YDUZ-LRy4jCEnzwreObM86ir6wJMoeM)](https://startinblox.com) 
+|
+|---|---|---|---|---|---|---|
+| [Understory](https://understory.coop) 
+| [Startin'blox](https://startinblox.com) 
+|
 
 And a very big "Thank You" to the following *individuals* from the Solid community, who are donating through our [Open Collective](https://opencollective.com/independent-solid-test-suite) to make the Solid test suite possible, *you are all awesome!*
 
-| ![(anonymous backer)](https://user-images.githubusercontent.com/408412/117300002-6d1fab80-ae79-11eb-9f10-71ace659e038.png) | ![Sjoerd van Groning](https://user-images.githubusercontent.com/408412/117299273-a3106000-ae78-11eb-9b79-6b627d500f69.png) | ![Jan Schill](https://user-images.githubusercontent.com/408412/117430926-e9bd9300-af28-11eb-98e6-8723fcba5b11.png) | ![Travis Vachon](https://user-images.githubusercontent.com/408412/118088923-14479a00-b3c8-11eb-941a-43052ee31d4d.png) | ![Sharon Stratsianis](https://user-images.githubusercontent.com/408412/153570149-067b7fb4-b52d-4553-95b3-514de715f7e0.png) | ![Matthias Evering](https://user-images.githubusercontent.com/408412/168076899-5499691e-01fb-410b-bb86-7e2d79977b1c.png) |
+| ![(anonymous backer)](https://user-images.githubusercontent.com/408412/117300002-6d1fab80-ae79-11eb-9f10-71ace659e038.png) 
+| ![Sjoerd van Groning](https://user-images.githubusercontent.com/408412/117299273-a3106000-ae78-11eb-9b79-6b627d500f69.png) 
+| ![Jan Schill](https://user-images.githubusercontent.com/408412/117430926-e9bd9300-af28-11eb-98e6-8723fcba5b11.png) 
+| ![Travis Vachon](https://user-images.githubusercontent.com/408412/118088923-14479a00-b3c8-11eb-941a-43052ee31d4d.png) 
+| ![Sharon Stratsianis](https://user-images.githubusercontent.com/408412/153570149-067b7fb4-b52d-4553-95b3-514de715f7e0.png) 
+| ![Matthias Evering](https://user-images.githubusercontent.com/408412/168076899-5499691e-01fb-410b-bb86-7e2d79977b1c.png) 
+|
 |---|---|---|---|---|---|
-| (anonymous backer) | Sjoerd van Groning | Jan Schill | Travis Vachon | Sharon Stratsianis | Matthias Evering |
+| (anonymous backer) 
+| Sjoerd van Groning 
+| Jan Schill 
+| Travis Vachon 
+| Sharon Stratsianis 
+| Matthias Evering 
+|
 
 ## Context
 The reports on [solidservers.org](https://solidservers.org) are generated using the Jest-based tests, that is, the [CRUD tests](https://github.com/solid-contrib/solid-crud-tests), the [WAC tests](https://github.com/solid-contrib/web-access-control-tests), and a few others.
