@@ -1,21 +1,21 @@
-# Solid Pod Hosters
+# Solid Pod Hosters for Enterprise
 
 Solid can separate apps from data. So to use Solid, you need [Solid apps](https://solidproject.org/apps) and a Solid Pod Server.
 As a developer or end-user, you can [self-host an open source pod server](https://solidproject.org/self-hosting/css) or [get a pod from a (demo) pod provider](https://solidproject.org/users/get-a-pod).
 As an organisation who wants to offer data sovereignty to their users, you can of course, again, host a pod server in-house or even on-prem, but you can also contact one of the following commercial pod hosting providers
 to handle this for you:
 
-| Company                                     | Product   | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) |
-| :--:                                        | :---:     |        :--:        |    :--:       | :--:     |  :--:    |   :--:   |   :--:     |
-| [GraphMetrix](https://graphmetrix.com)      | TrinPod   | &#10003;           |               | &#10003; | &#10003; | &#10003; |            |
-| [Digita](https://digita.ai)                 | Use ID    | &#10003;           |               | &#10003; |          |          |            |
-| [Inrupt](https://inrupt.com)                | ESS       | &#10003;           |               | &#10003; | &#10003; |          |            |
-| [Muze](https://muze.nl)                     | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
-| [The Good Cloud](https://thegood.cloud/)    | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
-| [Lansol](https://www.lansol.cloud/zyanbox/) | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
-| [Penta](https://penta.ch)                   | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
-| [Netways](https://netways.de)               | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
-| [Jaba Hosting](https://www.jaba.hosting/)   | Nextcloud | &#10003;           |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   |
+| Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
+| :--:                                      | :---:     |        :--:       |    :--:       | :--:     |  :--:    |   :--:   |   :--:     | :--: |
+| [GraphMetrix](https://graphmetrix.com)    | TrinPod   | &#10003;          |               | &#10003; | &#10003; | &#10003; |            | US |
+| [Digita](https://digita.ai)               | Use ID    | &#10003;          |               | &#10003; |          |          |            | BE |
+| [Inrupt](https://inrupt.com)              | ESS       | &#10003;          |               | &#10003; | &#10003; |          |            | US |
+| [Muze](https://muze.nl)                   | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
+| [The Good Cloud](https://thegood.cloud/)  | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
+| [Lansol](https://www.lansol.cloud/zyanbox/) | Nextcloud | &#10003;        |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [Penta](https://penta.ch)                 | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | CH |
+| [Netways](https://netways.de)             | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [Jaba Hosting](https://www.jaba.hosting/) | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
 
 
 # Solid Test Suite
