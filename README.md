@@ -1,9 +1,9 @@
 # Solid Test Suite
 [![Join the chat at https://gitter.im/solid/test-suite](https://badges.gitter.im/solid/test-suite.svg)](https://gitter.im/solid/test-suite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Solid's test suite is maintained by the [Solid test suite panel](https://github.com/solid/test-suite-panel)
-and sponsored through an [Open Collective](https://opencollective.com/independent-solid-test-suite). You can show your support by donating
-even just 1 USD there, and we'll add you or your logo to our list of sponsors.
+Solid's test suite verifies the interoperability of pod servers and is maintained by the [Solid test suite panel](https://github.com/solid/test-suite-panel).
+We are partially volunteering and partially sponsored by our employers, but ultimately the continuity of the Solid test suite is guaranteed through an [Open Collective](https://opencollective.com/independent-solid-test-suite),
+and you can show your support by donating even just 1 USD there, and we'll add you or your logo to our list of sponsors.
 
 We operate as a [Solid Panel](https://github.com/solid/process/blob/main/panels.md#test-suite), and as such we have a [charter with deliverables](https://github.com/solid/process/blob/main/test-suite-panel-charter.md#deliverables).
 
