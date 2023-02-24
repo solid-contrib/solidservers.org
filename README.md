@@ -15,6 +15,7 @@ to handle this for you:
 | [Penta](https://penta.ch)                 | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | CH |
 | [Netways](https://netways.de)             | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
 | [Jaba Hosting](https://www.jaba.hosting/) | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [LibreBit](https://www.librebit.com)      | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | ES |
 
 As a developer or end-user, you can [self-host an open source pod server](https://solidproject.org/self-hosting/css) or [get a pod from a (demo) pod provider](https://solidproject.org/users/get-a-pod).
 
