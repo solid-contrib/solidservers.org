@@ -2,7 +2,8 @@
 
 Solid can separate apps from data. So to use Solid, you need [Solid apps](https://solidproject.org/apps) and a Solid Pod Server.
 As an organisation who wants to offer data sovereignty to their users, you can of course host a pod server in-house or even on-prem, but you can also contact one of the following commercial pod hosting providers
-to handle this for you:
+to handle this for you. Note that this list is compiled
+to the best our knowledge, and inclusion in this list does not imply any kind of endorsement from the [Solid CG](https://www.w3.org/community/solid/) or vice versa. Please [contribute](https://github.com/solid-contrib/solidservers.org/edit/list-pod-hosters/README.md) or [open an issue](https://github.com/solid-contrib/solidservers.org/issues/new) if you have any additions or corrections.
 
 | Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
 | :--:                                      | :---:     |        :--:       |    :--:       | :--:     |  :--:    |   :--:   |   :--:     | :--: |
