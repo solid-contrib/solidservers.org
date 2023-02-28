@@ -1,3 +1,25 @@
+# Solid Pod Hosters for Enterprise
+
+Solid can separate apps from data. So to use Solid, you need [Solid apps](https://solidproject.org/apps) and a Solid Pod Server.
+As an organisation who wants to offer data sovereignty to their users, you can of course host a pod server in-house or even on-prem, but you can also contact one of the following commercial pod hosting providers
+to handle this for you. Note that this list is compiled
+to the best our knowledge, and inclusion in this list does not imply any kind of endorsement from the [Solid CG](https://www.w3.org/community/solid/) or vice versa. Please [contribute](https://github.com/solid-contrib/solidservers.org/edit/list-pod-hosters/README.md) or [open an issue](https://github.com/solid-contrib/solidservers.org/issues/new) if you have any additions or corrections.
+
+| Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
+| :--:                                      | :---:     |        :--:       |    :--:       | :--:     |  :--:    |   :--:   |   :--:     | :--: |
+| [GraphMetrix](https://graphmetrix.com)    | TrinPod   | &#10003;          |               | &#10003; | &#10003; | &#10003; |            | US |
+| [Digita](https://digita.ai)               | Use ID    | &#10003;          |               | &#10003; |          |          |            | BE |
+| [Inrupt](https://inrupt.com)              | ESS       | &#10003;          |               | &#10003; | &#10003; |          |            | US |
+| [Muze](https://muze.nl)                   | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
+| [The Good Cloud](https://thegood.cloud/)  | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
+| [Lansol](https://www.lansol.cloud/zyanbox/) | Nextcloud | &#10003;        |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [Penta](https://penta.ch)                 | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | CH |
+| [Netways](https://netways.de)             | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [Jaba Hosting](https://www.jaba.hosting/) | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
+| [LibreBit](https://www.librebit.com)      | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | ES |
+
+As a developer or end-user, you can [self-host an open source pod server](https://solidproject.org/self-hosting/css) or [get a pod from a (demo) pod provider](https://solidproject.org/users/get-a-pod).
+
 # Solid Test Suite
 [![Join the chat at https://gitter.im/solid/test-suite](https://badges.gitter.im/solid/test-suite.svg)](https://gitter.im/solid/test-suite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
