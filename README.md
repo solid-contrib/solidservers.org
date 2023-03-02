@@ -7,7 +7,7 @@ to the best our knowledge, and inclusion in this list does not imply any kind of
 
 | Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
 | :--:                                      | :---:     |        :--:       |    :--:       | :--:     |  :--:    |   :--:   |   :--:     | :--: |
-| [GraphMetrix](https://graphmetrix.com)    | TrinPod   | &#10003;          |               | &#10003; | &#10003; | &#10003; |            | US |
+| [GraphMetrix](https://graphmetrix.com)    | TrinPod   | &#10003;          |               | &#10003; | &#10003; | &#10003; |            | US / EU |
 | [Digita](https://digita.ai)               | Use ID    | &#10003;          |               | &#10003; |          |          |            | BE |
 | [Inrupt](https://inrupt.com)              | ESS       | &#10003;          |               | &#10003; | &#10003; |          |            | US |
 | [Muze](https://muze.nl)                   | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
