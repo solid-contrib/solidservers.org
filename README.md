@@ -5,11 +5,11 @@ As an organisation who wants to offer data sovereignty to their users, you can o
 to handle this for you. Note that this list is compiled
 to the best our knowledge, and inclusion in this list does not imply any kind of endorsement from the [Solid CG](https://www.w3.org/community/solid/) or vice versa. Please [contribute](https://github.com/solid-contrib/solidservers.org/edit/list-pod-hosters/README.md) or [open an issue](https://github.com/solid-contrib/solidservers.org/issues/new) if you have any additions or corrections.
 
-| Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     |   WAC    | (WebHooks) | From |
+| Company                                   | Product  | "Entreprise Grade" | "Open Source" | IDP      | CRUD     | Access Control | Notifications | From |
 | :--:                                      | :---:     |        :--:       |    :--:       | :--:     |  :--:    |   :--:   |   :--:     | :--: |
 | [GraphMetrix](https://graphmetrix.com)    | TrinPod   | &#10003;          |               | &#10003; | &#10003; | &#10003; |            | US / EU |
 | [Digita](https://digita.ai)               | Use ID    | &#10003;          |               | &#10003; |          |          |            | BE |
-| [Inrupt](https://inrupt.com)              | ESS       | &#10003;          |               | &#10003; | &#10003; |          |            | US |
+| [Inrupt](https://inrupt.com)              | ESS       | &#10003;          |               | &#10003; | &#10003; | &#10003; | &#10003;   | US |
 | [Muze](https://muze.nl)                   | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
 | [The Good Cloud](https://thegood.cloud/)  | Nextcloud | &#10003;          |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | NL |
 | [Lansol](https://www.lansol.cloud/zyanbox/) | Nextcloud | &#10003;        |  &#10003;     | &#10003; | &#10003; | &#10003; | &#10003;   | DE |
