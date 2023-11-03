@@ -110,10 +110,11 @@ For the 'version' column, servers have "(each PR)" if their continuous integrati
 | 5. | Community Solid Server | [10 may 2022](https://github.com/CommunitySolidServer/CommunitySolidServer/releases/tag/v4.0.1) | [TypeScript](https://github.com/CommunitySolidServer/CommunitySolidServer) | 1) |  ✓   |  6)  |  ✓    |      |       |
 | 6. | TrinPod                | [october 2021](https://stage.graphmetrix.net) | Lisp    | 1) |  2)  |  ✓  |    |      |       |
 | 7. | Inrupt ESS             | [26 september 2022](https://github.com/solid-contrib/solid-crud-tests/issues/60#issuecomment-1258168495) | Java            | 1) |  8)  |  3)  |   4) |  5)   |       |
-| 8. | Naamio         | (coming soon!) | Rust                                          |     |      |     |       |       |       |
-| 9. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
-| 10. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
-| 11.| Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
+| 8. | Manas          | (testing starts) | [Rust](https://github.com/manomayam/manas)   |     |      |     |       |       |       |
+| 9. | Naamio         | (coming soon!) | Rust                                          |     |      |     |       |       |       |
+| 10. | Reactive-SoLiD         | (coming soon!) | [Scala](https://github.com/co-operating-systems/Reactive-SoLiD)                                           |     |      |     |       |       |       |
+| 11. | DexPod                 | (coming soon!) | [Ruby](https://gitlab.com/ontola/dexpod)                                                                  |     |      |     |       |       |       |
+| 12.| Disfluid               | (coming soon!) |  [C](https://labo.planete-kraus.eu/webid-oidc.git)                                                        |     |      |     |       |       |       |
 
 ### Footnotes
 
