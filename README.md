@@ -21,9 +21,9 @@ These awesome *Solid-related startups* collectively sponsor the maintenance of t
 |---|---|---|---|---|
 | [Digita](https://www.digita.ai) | [O Team](https://o.team) | [GraphMetrix](https://graphmetrix.com) | [Interition](https://interition.com) | [Ontola](https://ontola.io) |
 
-| [<img src="https://user-images.githubusercontent.com/408412/118088415-545a4d00-b3c7-11eb-8f60-bda451827391.png" width="90px" height="90px">](https://understory.coop) | [<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHocYfOjuWmBQ/company-logo_200_200/0/1550057556294?e=2159024400&v=beta&t=9ieVgUpPJ0S_YDUZ-LRy4jCEnzwreObM86ir6wJMoeM" width="90px" height="90px">](https://startinblox.com) | [<img src="https://user-images.githubusercontent.com/408412/220356224-2fdab6d8-997a-4e27-a69f-673bcc714659.png" width="90px" height="90px">](https://muze.nl) | [<img src="https://user-images.githubusercontent.com/408412/220291000-456771b9-1260-4d0e-b01f-27baa007c708.png" width="90px" height="90px">](https://pondersource.com) |
-|---|---|---|---|
-| [Understory](https://understory.coop) | [Startin'blox](https://startinblox.com) | [Muze](https://muze.nl) | [Ponder Source](https://pondersource.com) |
+| [<img src="https://user-images.githubusercontent.com/408412/118088415-545a4d00-b3c7-11eb-8f60-bda451827391.png" width="90px" height="90px">](https://understory.coop) | [<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHocYfOjuWmBQ/company-logo_200_200/0/1550057556294?e=2159024400&v=beta&t=9ieVgUpPJ0S_YDUZ-LRy4jCEnzwreObM86ir6wJMoeM" width="90px" height="90px">](https://startinblox.com) | [<img src="https://user-images.githubusercontent.com/408412/220356224-2fdab6d8-997a-4e27-a69f-673bcc714659.png" width="90px" height="90px">](https://muze.nl) | [<img src="https://user-images.githubusercontent.com/408412/220291000-456771b9-1260-4d0e-b01f-27baa007c708.png" width="90px" height="90px">](https://pondersource.com) | [<img src="https://images.opencollective.com/meisdata/985f441/logo/256.png?height=256" width="90px" height="90px">](https://www.meisdata.io/) |
+|---|---|---|---|---|
+| [Understory](https://understory.coop) | [Startin'blox](https://startinblox.com) | [Muze](https://muze.nl) | [Ponder Source](https://pondersource.com) | [Me Is Data](https://www.meisdata.io) |
 
 And a very big "Thank You" to the following *individuals* from the Solid community, who are donating through our [Open Collective](https://opencollective.com/independent-solid-test-suite) to make the Solid test suite possible, *you are all awesome!*
 
